@@ -1,0 +1,35 @@
+
+    :root {
+        --reactive-nonmetal: #f0ff8f;
+        --alkali-metal: #f66;
+        --alkaline-earth-metal: #ffdead;
+        --noble-gas: #c0ffff;
+        --transition-metal: #ffc0c0;
+        --post-transition-metal: #ccc;
+        --metaloid: #cc9;
+        --unknown: #e8e8e8;
+        --lanthanide: #ffbfff;
+        --actinide: #f9c;
+
+        --background-color: hsl(180, 35%, 28%);
+        --base-text-color: #fff;
+    }
+
+    html {
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    body {
+        font-family: "Roboto Mono", monospace;
+        margin: 0;
+        background-color: var(--background-color);
+        color: var(--base-text-color);
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0.5rem;
+    }
+
+    

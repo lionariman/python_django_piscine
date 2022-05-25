@@ -1,5 +1,5 @@
 
-    html {
+	html {
         box-sizing: border-box;
         font-size: 12px;
     }
@@ -19,7 +19,7 @@
         border: 0px solid rgb(255, 255, 255);
         padding:10px;
         background: linear-gradient(225deg, #ffffff, #e6e6e6);
-        box-shadow: -5px 5px 10px #999999,
+        box-shadow: -5px 5px 10px1 #999999,
                     5px -5px 10px #ffffff;
     }
 
@@ -28,5 +28,4 @@
         box-shadow: -5px 5px 10px #999999,
                     5px -5px 10px #ffffff;
     }
-
-    
+	

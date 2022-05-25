@@ -1,6 +1,6 @@
 def get_table_body(key, values):
     table_body = '''
-    <td style="border: 1px solid black; padding:10px" class="letter">
+    <td class="cell">
         <h4>{name}</h4>
         <ul>
             <li>No {number}</li>
@@ -49,22 +49,6 @@ def skip_table_cells(pos, position):
 
 def generate_css_file():
     css = '''
-    :root {
-        --reactive-nonmetal: #f0ff8f;
-        --alkali-metal: #f66;
-        --alkaline-earth-metal: #ffdead;
-        --noble-gas: #c0ffff;
-        --transition-metal: #ffc0c0;
-        --post-transition-metal: #ccc;
-        --metaloid: #cc9;
-        --unknown: #e8e8e8;
-        --lanthanide: #ffbfff;
-        --actinide: #f9c;
-
-        --background-color: hsl(180, 35%, 28%);
-        --base-text-color: #fff;
-    }
-
     html {
         box-sizing: border-box;
         font-size: 12px;
@@ -78,8 +62,21 @@ def generate_css_file():
     }
 
     table {
-        border-collapse: collapse;
         border-spacing: 0.5rem;
+    }
+
+    .cell {
+        border: 0px solid rgb(255, 255, 255);
+        padding:10px;
+        background: linear-gradient(225deg, #ffffff, #e6e6e6);
+        box-shadow: -5px 5px 10px #999999,
+                    5px -5px 10px #ffffff;
+    }
+
+    .cell:hover {
+        background: linear-gradient(225deg, #e6e6e6, #ffffff);
+        box-shadow: -5px 5px 10px #999999,
+                    5px -5px 10px #ffffff;
     }
 
     '''

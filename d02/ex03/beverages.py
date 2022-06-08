@@ -45,12 +45,12 @@ class Cappuccino(HotBeverage):
     def description(self) -> str:
         return "Un po' di Italia nella sua tazza!"
 
-def main():
-    print(HotBeverage())
-    print(Coffee())
-    print(Tea())
-    print(Chocolate())
-    print(Cappuccino())
+# def main():
+#     print(HotBeverage())
+#     print(Coffee())
+#     print(Tea())
+#     print(Chocolate())
+#     print(Cappuccino())
 
-if __name__ == "__main__":
-    main()        
+# if __name__ == "__main__":
+#     main()        
